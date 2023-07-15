@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&family=Roboto&display=swap');
+body{
+    background-color: #2c2c2c !important;
+    color:#9b9999 !important;
+}
+#main{
+    width: 80%;
+    margin: 2rem auto;
+
+}
+.cabecalho>h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 5rem;
+    font-weight: 200;
+}
+.cabecalho>button{
+    background-color: #9b9999;
+    border: none;
+    border: 1px solid #9b9999;
+}
+.cabecalho>button:hover{
+    background-color:#2c2c2c;
+    color: #9b9999;
+    border: 1px solid #9b9999;
+}
+.cabecalho>button:active{
+    background-color:#2c2c2c;
+    color: #9b9999;
+    border: 1px solid #9b9999;
+}
+.font-style{
+    font-family: 'Roboto', sans-serif;
+}
+footer{
+    margin-top: 2rem;
+}
+.aspas{
+    font-style: italic;
+    font-weight: 300;
+}
+form>div:nth-child(2){
+    margin-top: 1rem;
+}
+form>div:first-child{
+    margin-top: 0.2rem;
+}
+form>p{
+    margin-top: 1rem;
+}
+.color-red,
+.color-orange,
+.color-yellow,
+.color-green,
+.color-blue,
+.color-no-color{
+    font-weight: 600;
+}
+.color-red{
+    color: rgb(161, 8, 8);
+}
+.color-orange{
+    color: rgb(187, 79, 7);
+}
+.color-yellow{
+    color: rgb(187, 184, 17);
+}
+.color-green{
+    color: rgb(21, 161, 8);
+}
+.color-blue{
+    color: rgb(8, 44, 161);
+}
+.red-c{
+    background-color: rgb(161, 8, 8) !important;
+    color: white !important;
+}
+.orange-c{
+    background-color: rgb(187, 79, 7) !important;
+    color: white !important;
+}
+.yellow-c{
+    background-color: rgb(187, 184, 17) !important;
+    color: black !important;
+}
+.green-c{
+    background-color: rgb(21, 161, 8) !important;
+    color: white !important;
+}
+.blue-c{
+    color: white !important;
+    background-color: rgb(8, 44, 161) !important;
+}
+.nocolor-c{
+    color:#070000 !important;
+    background-color: #9b9999;
+}
+input[type='radio']{
+    border: 2px solid #525050;
+}
+
+.do,
+.doing,
+.done{
+    font-weight: 700;
+    border: 1px solid rgb(197, 196, 196);
+    min-height: 500px;
+    margin-bottom: 2rem;
+    padding: 0;
+}
+.do>h2,
+.doing>h2,
+.done>h2{
+   background-color:  rgb(197,196,196);
+   color: #2c2c2c;
+   width: 100%;
+   margin: 0;
+   padding: 5px ;
+}
+.kanban{
+    padding: 0 !important;
+    margin-top: 2rem !important;
+}
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.cabecalho-card{
+    padding: 10px !important;
+}
+.card{
+    box-shadow: 2px 3px 2px #525050;
+    margin: 10px;
+    transition: none 0s ease 0s;
+    transform: translate3d(0px, 0px, 0px);
+}
+#close-modal{
+    color: #790404;
+    border: 1px solid #790404;
+}
+#close-modal:hover{
+    color: #dad3d3;
+    border: 1px solid #790404;
+    background-color: #790404;
+}
+#create-card{
+    color: #070000;
+    border: 1px solid #070000;
+}
+#create-card:hover{
+    color: #dad3d3;
+    border: 1px solid #070000;
+    background-color: #070000;
+}
+
+
+.do>.card:last-child,
+.doing>.card:last-child,
+.done>.card:last-child{
+    margin-bottom: 3rem;
+}
+.modal{
+    color: #2c2c2c !important;
+}
+input.description{
+    max-height: 3rem !important;
+    resize: none !important;
+}
